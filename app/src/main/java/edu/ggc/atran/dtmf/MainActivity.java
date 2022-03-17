@@ -16,9 +16,6 @@ import android.widget.Button;
 import android.widget.RadioButton;
 
 public class MainActivity extends AppCompatActivity {
-    private RadioButton duration1;
-    private RadioButton duration2;
-    private RadioButton duration3;
     private ToneAsyncTask task;
     private char c;
 
@@ -29,10 +26,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        duration1 = findViewById(R.id.rbShort);
-        duration1 = findViewById(R.id.rbMedium);
-        duration1 = findViewById(R.id.rbLong);
-        c = 's';
+        c = 'S';
 
     }
 
